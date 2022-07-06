@@ -137,3 +137,51 @@ input[type=number] {
 
 
 
+.section-3-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3-all-item{
+    height: 500px;
+    width: 1100px;
+    text-align: center;
+}
+.section-3-title{
+    font-size: 55px;
+}
+.all-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.card{
+    height: 250px;
+    width: 300px;
+    background-color: rgba(165, 42, 42, 0.288);
+    border-radius: 7px;
+    padding: 25px;
+    text-align: justify;
+}
+.color-1{
+    background-color: rgba(135, 207, 235, 0.164);
+}
+.color-2{
+    background-color: rgba(255, 166, 0, 0.158);
+}
+.color-3{
+    background-color: rgba(255, 192, 203, 0.247);
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+}
+.card-title{
+    text-align: center;
+    margin: 10px 0px;
+}
+.card-description{
+    font-size: 20px;
+}

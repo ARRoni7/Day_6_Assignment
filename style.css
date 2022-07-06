@@ -19,7 +19,7 @@ body{
     align-items: center;
 }
 .section-1-all-text{
-    height: 500px;
+    height: 400px;
     width: 800px;
     justify-content: center;
     align-items: center;
@@ -40,4 +40,51 @@ body{
     padding: 20px 40px;
     font-size: 22px;
     border-radius: 10px;
+}
+.donate-btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+
+
+
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate-form{
+    margin: 20px 20px 50px 20px;
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+}
+input[type=number] {
+    width: 100%;
+    height: 50px;
+    padding: 12px 230px 12px 270px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    justify-content: center;
+    align-items: center;
+}
+.donate-btn-2{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(255, 115, 0);
+    padding: 20px 40px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-left: 230px;
+}
+.donate-btn-2:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 1, 1);
+    cursor: pointer;
 }

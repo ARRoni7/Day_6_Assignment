@@ -203,7 +203,7 @@ input[type=number] {
 }
 #section-4-description{
     font-size: 20px;
-    margin: 0px 200px 10px 200px;
+    margin: 20px 200px 0px 200px;
 }
 .section-4-image-btn{
     display: flex;

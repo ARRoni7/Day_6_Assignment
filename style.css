@@ -34,7 +34,7 @@ body{
     align-items: center;
 }
 .section-1-title{
-    font-size: 65px;
+    font-size: 70px;
 }
 .section-1-description{
     font-size: 20px;
@@ -192,15 +192,18 @@ input[type=number] {
     text-align: center;
 }
 .section-4-all-item{
-    height: 550px;
+    height: 600px;
     width: 1220px;
     background-color: rgba(250, 235, 215, 0.486);
     text-align: center;
     border-radius: 10px;
 }
 .section-4-title{
-    margin: 5px;
     padding-top: 30px;
+}
+#section-4-description{
+    font-size: 20px;
+    margin: 0px 200px 10px 200px;
 }
 .section-4-image-btn{
     display: flex;
@@ -226,6 +229,7 @@ input[type=number] {
 .fb-btn:hover{
     background-color: rgba(66, 103, 178, 0.349);
     border: 1px solid blue;
+    cursor: pointer;
 }
 .insta-btn{
     height: 60px;
@@ -241,9 +245,81 @@ input[type=number] {
 .insta-btn:hover{
     background-color:  rgba(245, 140, 41, 0.493);
     border: 1px solid orange;
+    cursor: pointer;
 }
 
 
 
 
 
+.section-5-container{
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-5-all-item{
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    border-radius: 10px;
+}
+.section-5-title{
+    margin-bottom: 10px;
+}
+.section-5-description{
+    font-size: 20px;
+    margin: 30px 30px 50px 30px;
+}
+.email-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(165, 42, 42, 0.123);
+}
+.email-subscribe-btn{
+    height: 180px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+#email-btn{
+    height: 50px;
+    width: 300px;
+    border: none;
+    margin-top: 8%;
+    padding-left: 20px;
+    background-color: rgba(128, 128, 128, 0.473);
+}
+#subscribe-btn{
+    height: 50px;
+    width: 100px;
+    border: none;
+    margin-top: 8%;
+    background-color: rgb(255, 115, 0);
+}
+#subscribe-btn:hover{
+    color: white;
+    background-color: rgba(255, 115, 0, 0.781);
+}
+
+
+
+
+footer{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+footer h3{
+    font-family: cursive;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+footer p{
+    text-align: center;
+}

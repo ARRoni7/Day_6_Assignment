@@ -150,6 +150,11 @@ input[type=number] {
 .section-3-title{
     margin-bottom: 5px;
 }
+.section-3-description{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
 .all-card{
     display: flex;
     justify-content: space-evenly;
